@@ -11,7 +11,7 @@ const UseStateObject = () => {
     <h3>{person.age}</h3>
     <h3>{person.message}</h3>
     <button className='btn' onClick={changeMessage}>
-      change message
+      change message 
     </button>
   </>;
 };
