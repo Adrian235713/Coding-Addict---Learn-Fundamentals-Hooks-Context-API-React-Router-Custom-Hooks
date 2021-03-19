@@ -7,14 +7,14 @@ const UseEffectBasics = () => {
   const[value,setValue] =useState(0);
   
   useEffect(()=>{
-console.log('USEeFEKT')
+  console.log('USEeFEKT')
     if (value > 0){
       document.title = `New Messages(${value})`
     }
     else {
        document.title = `no new messages`
     }
-  });
+  },[value]);
 
 
   return <>
